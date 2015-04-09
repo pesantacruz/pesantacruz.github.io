@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">	
+	
+	<head>		
+		
+		<meta charset="utf-8">
+		
+		<!-- ADD THE PAGE TITLE BELOW -->
+		<title>My Music</title>
+		
+		<link rel="stylesheet" href="styles/style.css" />
+
+		<!--[if IE 6]>
+            <link rel="stylesheet" href="styles/ie6.css" />
+        <![endif]--> 
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="styles/ie7.css" />
+        <![endif]-->
+        <!--[if IE 8]>
+            <link rel="stylesheet" href="styles/ie8.css" />
+        <![endif]-->
+		
+	</head>
+	
+	<body>
+	
+		<div id="wrap">
+	
+			<div id="header">
+			
+				<!-- ADD YOUR NAME & JOB TITLE HERE -->
+				<h1><a href="index.html" title="Link to Home Page">Pedro Santacruz</a></h1>
+				<h2>Postdoctoral Fellow || The University of Texas at Austin</h2>
+				
+				<!-- THIS IS THE NAVIGATION AREA -->
+				<ul id="nav">
+				
+					<li><a href="index.html" title="Link to Home Page" >Home</a><span>/</span></li>
+					<li><a href="academics.html" title="Link to Academic Page">Academics</a><span>/</span></li>
+					<li><a href="research.html" title="Link to Research Page">Research</a><span>/</span></li>
+					<li><a href="personal.html" title="Link to Personal Page" class="current">Personal</a><span>/</span></li>
+					<li><a href="contact.html" title="Link to Contact Page" >Contact</a></li>
+				
+				</ul><!--end nav-->
+			
+			</div>
+			
+			<!-- ADD THE PAGE INTRO HERE -->
+			<div id="intro">
+			
+				<h3>My Music</h3>
+			
+			</div><!--end intro-->
+			
+			<div id="main">    
+		    	
+		    	<!-- TO CONFIGURE THE CONTACT FORM EDIT LINE 33 IN "scripts/contact-process.php" FILE AND REPLACE "your@email.com" WITH YOUR OWN EMAIL ADDRESS -->
+		    	<div id="content">    		
+					
+					<p><h6><em>Ni Siquiera:</em></h6></p>					 
+					 
+					<script type="text/javascript" src="mediaplayer/swfobject.js"></script>
+					
+										<div id="player">This text will be replaced</div>
+										 
+										<script type="text/javascript">
+										var so = new SWFObject('mediaplayer/player.swf','mpl','470','20','9');
+										so.addParam('allowscriptaccess','always');
+										so.addParam('allowfullscreen','true');
+										so.addParam('flashvars','&duration=195&file=files/Ni Siquiera.mp3');
+										so.write('player');
+					</script>
+					
+					<p><h6><em>Una Gran Mujer:</em></h6></p>
+					
+					
+					<script type="text/javascript" src="mediaplayer/swfobject.js"></script>
+					
+										<div id="player2">This text will be replaced</div>
+										 
+										<script type="text/javascript">
+										var so = new SWFObject('mediaplayer/player.swf','mpl','470','20','9');
+										so.addParam('allowscriptaccess','always');
+										so.addParam('allowfullscreen','true');
+										so.addParam('flashvars','&duration=198&file=files/Una Gran Mujer-2.mp3');
+										so.write('player2');
+										</script>
+					
+					
+		    	</div><!--end content-->  
+		
+									
+			</div><!--end main-->
+						
+			<div id="footer">
+			
+				<!-- EDIT THE FOOTER TEXT HERE -->
+				<p>Copyright &copy; 2011 / Pedro Santacruz / All Rights Reserved 
+				
+				<a href="http://www.linkedin.com/in/pesantacruz" title="linkedin"><img class="social-img" src="images/social/16x16-linkedin.png" alt="[ADD ALTERNATIVE TEXT FOR IMAGE]" /></a>
+				<a href="http://www.twitter.com/pesanta" title="twitter"><img class="social-img" src="images/social/16x16-twitter.png" alt="[ADD ALTERNATIVE TEXT FOR IMAGE]" /></a>
+				<a href="http://plus.google.com/116920838075660135009" title="google+"><img class="social-img" src="images/social/16x16-gplus.png" alt="[ADD ALTERNATIVE TEXT FOR IMAGE]" /></a>
+				<a href="http://www.facebook.com/pesantacruz" title="facebook"><img class="social-img" src="images/social/16x16-facebook.png" alt="[ADD ALTERNATIVE TEXT FOR IMAGE]" /></a>
+				<a href="mailto: pesantacruz@rice.edu" title="email"><img class="social-img" src="images/social/16x16-email.png" alt="[ADD ALTERNATIVE TEXT FOR IMAGE]" /></a>
+				</p>
+			
+			</div><!--end footer-->
+		
+		</div><!--end wrap-->
+		
+		<div class="cache-images">
+			<img src="images/submit-button-orange-hover.jpg" width="0" height="0" alt="" />
+		</div><!--end cache-images--> 
+		
+		
+	</body>
+	
+</html>
