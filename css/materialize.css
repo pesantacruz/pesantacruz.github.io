@@ -5316,7 +5316,7 @@ nav {
       float: left;
       padding: 0; }
       nav ul li:hover, nav ul li.active {
-        background-color: rgba(0, 0, 0, 0.1); }
+        background-color: rgba(28, 125, 184, 0.63); }
     nav ul a {
       font-size: 1rem;
       color: #fff;
