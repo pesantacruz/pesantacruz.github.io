@@ -1,0 +1,68 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.my-tan{
+	background-color: #EDE0D3 !important;
+}
+
+.my-tan-text{
+	color: #EDE0D3 !important;
+}
+
+.my-gray{
+	background-color: #BFC5C4 !important
+}
+
+.my-gray-text{
+	color: #BFC5C4 !important
+}
+
+.my-cyan{
+	background-color: #4AAEAE !important;
+}
+
+.my-cyan-text{
+	color: #4AAEAE !important;
+}
+
+.my-navy{
+	background-color: #002147 !important;
+}
+ 
+.my-navy-text{
+ 	color: #002147 !important;
+}
+
+.icon-block {
+ 	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+a {
+ 	color: #4AAEAE;  /*CYAN*/
+}
+
+footer.page-footer{
+	background-color: rgba(0, 31, 71, 0.85);
+}
+
+footer.page-footer .footer-copyright{
+	background-color: #002147;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
