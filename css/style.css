@@ -615,7 +615,7 @@
 		.fa-location-arrow:before{content:"\f124"}
 		.fa-crop:before{content:"\f125"}
 		.fa-code-fork:before{content:"\f126"}
-		.fa-unlink:before,.fa-chain-broken:before{content:"\f127"}
+		.fa-unlink:before,.fa-chain-brokena:before{content:"\f127"}
 		.fa-question:before{content:"\f128"}
 		.fa-info:before{content:"\f129"}
 		.fa-exclamation:before{content:"\f12a"}
@@ -873,7 +873,8 @@
 
 			#nav li.active a
 			{
-				color: #FFF;
+				color: #000;
+				background-color: #DDD;
 			}
 
 			#nav > ul > li > ul
